@@ -2,6 +2,7 @@
 
 Logout Button for JupyterLab
 
+![screenshot](./doc/screenshot.png)
 
 ## Prerequisites
 
