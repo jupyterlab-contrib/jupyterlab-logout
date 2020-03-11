@@ -2,7 +2,7 @@ import {
   JupyterFrontEnd, JupyterFrontEndPlugin, IRouter
 } from '@jupyterlab/application';
 
-import { Widget } from '@phosphor/widgets';
+import { Widget } from '@lumino/widgets';
 
 import { ITopBar } from "jupyterlab-topbar";
 
@@ -19,7 +19,7 @@ const extension: JupyterFrontEndPlugin<void> = {
     router: IRouter,
     topBar: ITopBar,
   ) => {
-    let logout = document.createElement('a');
+    const logout = document.createElement('a');
     logout.id = "logout";
     logout.innerHTML = "Log Out";
     logout.addEventListener('click', function () {
