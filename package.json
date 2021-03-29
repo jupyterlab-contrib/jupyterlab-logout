@@ -47,7 +47,7 @@
   "dependencies": {
     "@jupyterlab/application": "^3.0.6",
     "@lumino/widgets": "^1.16.1",
-    "jupyterlab-topbar": "^0.5.0"
+    "jupyterlab-topbar": "^0.6.0"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
