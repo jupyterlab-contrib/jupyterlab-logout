@@ -13,7 +13,7 @@ import '@jupyterlab/application/style/buttons.css';
 import '../style/index.css';
 
 const extension: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab-logout',
+  id: 'jupyterlab-logout:plugin',
   autoStart: true,
   requires: [IRouter, ITopBar],
   activate: async (app: JupyterFrontEnd, router: IRouter, topBar: ITopBar) => {
