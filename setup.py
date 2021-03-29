@@ -70,6 +70,7 @@ setup_args = dict(
     cmdclass=cmdclass,
     packages=setuptools.find_packages(),
     install_requires=[
+        "jupyterlab-topbar>=0.6.0",
         "jupyterlab~=3.0",
     ],
     zip_safe=False,
