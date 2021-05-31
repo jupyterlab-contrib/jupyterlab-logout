@@ -1,6 +1,6 @@
 # jupyterlab-logout
 
-![Github Actions Status](https://github.com/jtpio/jupyterlab-topbar.git/workflows/Build/badge.svg)
+![Github Actions Status](https://github.com/jupyterlab-contrib/jupyterlab-logout.git/workflows/Build/badge.svg)
 
 Logout Button for JupyterLab
 
