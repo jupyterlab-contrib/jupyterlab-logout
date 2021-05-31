@@ -7,13 +7,14 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/jtpio/jupyterlab-topbar",
+  "homepage": "https://github.com/jupyterlab-contrib/jupyterlab-logout",
   "bugs": {
-    "url": "https://github.com/jtpio/jupyterlab-topbar/issues"
+    "url": "https://github.com/jupyterlab-contrib/jupyterlab-logout/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
-	"name": "Jeremy Tuloup"
+    "name": "jupyterlab-logout contributors",
+    "email": ""
   },
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
@@ -24,7 +25,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jtpio/jupyterlab-topbar.git"
+    "url": "https://github.com/jupyterlab-contrib/jupyterlab-logout.git"
   },
   "scripts": {
     "build": "jlpm run build:lib && jlpm run build:labextension:dev",
