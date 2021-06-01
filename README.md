@@ -1,10 +1,10 @@
 # jupyterlab-logout
 
-![Github Actions Status](https://github.com/jupyterlab-contrib/jupyterlab-logout.git/workflows/Build/badge.svg)
+![Github Actions Status](https://github.com/jupyterlab-contrib/jupyterlab-logout/workflows/Build/badge.svg)
 
 Logout Button for JupyterLab
 
-
+![screenshot](./doc/screenshot.png)
 
 ## Requirements
 
@@ -15,7 +15,6 @@ Logout Button for JupyterLab
 ```bash
 pip install jupyterlab-logout
 ```
-
 
 ## Contributing
 
