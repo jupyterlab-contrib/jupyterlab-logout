@@ -27,6 +27,16 @@ const extension: JupyterFrontEndPlugin<void> = {
     const widget = new Widget({ node: logout });
     widget.addClass('jp-Button-flat');
     topBar.addItem('logout-button', widget);
+
+    const control = document.createElement('a');
+    control.id = 'control';
+    control.innerHTML = 'Control';
+    control.addEventListener('click', () => {
+    router.navigate('../../home', { hard: true }); });
+      
+    const widget_ct = new Widget({ node: control });
+    widget_ct.addClass('jp-Button-flat');
+    topBar.addItem('control-button', widget_ct);
   }
 };
 
